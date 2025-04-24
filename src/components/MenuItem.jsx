@@ -4,7 +4,7 @@ export default function MenuItem({ title, address, Icon }) {
   return (
     <Link href={address}>
       <Icon />
-      <p>{title}</p>
+      <p className="uppercase hidden sm:line">{title}</p>
     </Link>
   );
 }
