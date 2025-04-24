@@ -1,8 +1,9 @@
-import MenuItem from './menuItem';
+import MenuItem from './MenuItem';
+import React from 'react';
 import { AiFillHome } from 'react-icons/ai';
 import { BsFillinfoCircleFill } from 'react-icons/bs';
 
-export default function header() {
+export default function Header() {
   return (
     <div>
       <div className="">
